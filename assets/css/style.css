@@ -1,0 +1,52 @@
+/* Induxt Industry Business HTML-5 Template */
+
+
+/*** 
+
+====================================================================
+	Attachment Css Files
+====================================================================
+
+***/
+
+@import url('global.html');
+@import url('header.html');
+@import url('footer.html');
+@import url('animate.html');
+@import url('rtl.html');
+@import url('dark-body.html');
+
+@import url('slider.html');
+@import url('about.html');
+@import url('marque.html');
+@import url('services.html');
+@import url('accordion.html');
+@import url('process.html');
+@import url('clients.html');
+@import url('projects.html');
+@import url('pricing.html');
+@import url('team.html');
+@import url('testimonial.html');
+@import url('news.css');
+@import url('contact.html');
+@import url('since.css');
+@import url('faq.html');
+@import url('video.html');
+@import url('counter.html');
+@import url('flaticon_induxt.html');
+
+
+@import url('cta.css');
+@import url('shop.css');
+@import url('choose.html');
+@import url('privacy.html');
+@import url('not-found.css');
+@import url('coming-soon.html');
+@import url('page-title.html');
+@import url('jquery-ui.css');
+@import url('swiper.min.css');
+@import url('font-awesome.css');
+@import url('custom-animate.css');
+@import url('magnific-popup.html');
+@import url('odometer-theme-default.css');
+@import url('jquery.bootstrap-touchspin.css');
