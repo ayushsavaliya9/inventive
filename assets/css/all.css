@@ -8791,7 +8791,7 @@ to {
 	margin-bottom: 30px;
 	color: var(--white-color);
 	text-transform: capitalize;
-	
+	font-size: 70px;
 	transition: 1.3s cubic-bezier(0.5, 0.5, 0, 1);
     clip-path: polygon(0% 0%, 0% 0%, 0% 100%, 0% 100%);
 }
