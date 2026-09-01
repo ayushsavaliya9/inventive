@@ -78,9 +78,13 @@
 
 :root {
 	
-	/* #ff5c00 in decimal RGB */
-	--main-color: rgb(255,92,0);
-	--main-color-rgb:255,92,0;
+	/* Inventive Alloy Cast brand blue: #0093DD */
+	--main-color: rgb(0,147,221);
+	--main-color-rgb:0,147,221;
+	
+	/* Inventive Alloy Cast brand gold: #EE9B11 */
+	--accent-color: rgb(238,155,17);
+	--accent-color-rgb:238,155,17;
 	
 	/* #151515 in decimal RGB */
 	--color-two: rgb(21,21,21);
@@ -7369,7 +7373,6 @@ to {
 	margin-right:35px;
 }
 
-.rtl .slider-three_lower:before,
 .rtl .testimonial-two .content-outer:after,
 .rtl .testimonial-two .content-outer:before,
 .rtl .about-one_image-two{
@@ -8868,17 +8871,6 @@ to {
 
 .slider-three_lower{
 	position:relative;
-}
-
-.slider-three_lower:before{
-	position:absolute;
-	content:'';
-	right: -120px;
-	bottom:90px;
-	width: 183px;
-	height: 153px;
-	background:url(../images/main-slider/arrow.png);
-	background-repeat: no-repeat;
 }
 
 .slider-three_big-title{
@@ -29721,4 +29713,46 @@ img.mfp-img {
 	/* --main-color: rgb(255,149,0); */
 	/* --main-color-rgb:255,149,0; */
 	
+}
+
+/* Inventive Alloy Cast brand treatment */
+.header-style-three .header-top{
+	background-color:transparent;
+}
+
+.header-style-three .header-lower .logo-box .logo{
+	padding:12px 16px;
+	background-color:var(--main-color);
+}
+
+.header-style-three .header-lower .logo-box .logo img{
+	display:block;
+	width:210px;
+	max-height:78px;
+	height:auto;
+	object-fit:contain;
+	content:url(../images/inventive/white-logo.png);
+}
+
+.header-style-three.fixed-header .header-lower .logo-box .logo{
+	padding:8px 0px;
+	background-color:transparent;
+}
+
+.header-style-three.fixed-header .header-lower .logo-box .logo img{
+	content:url(../images/inventive/white-logo.png);
+}
+
+.mobile-menu .nav-logo{
+	background-color:var(--white-color);
+}
+
+.mobile-menu .nav-logo img{
+	width:220px;
+	height:auto;
+}
+
+.main-footer_logo img{
+	width:230px;
+	height:auto;
 }
